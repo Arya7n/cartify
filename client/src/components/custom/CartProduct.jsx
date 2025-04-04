@@ -71,9 +71,13 @@ const CartProduct = ({
               <Minus
                 size={15}
                 stroke={Colors.customGray}
-                onClick={() =>
-                  dispatch(removeFromCart({ _id, quantity: 1, price }))
-                }
+                onClick={() => {
+                  if (quantity > 1) {
+                    dispatch(removeFromCart({ _id, quantity: 1, price }));
+                  } else {
+                    toast({ title: "Minimum quantity is 1" });
+                  }
+                }}
               />
               <span className="text-slate-950 text-sm sm:text-md">
                 {quantity}
