@@ -8,7 +8,7 @@ import {
 
 const HeaderDisplay = () => {
   const imagesData = [
-    " https://images.pexels.com/photos/1309766/pexels-photo-1309766.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "https://images-eu.ssl-images-amazon.com/images/G/31/img22/pcacc/gamingfest/Gaming_Fest-PC-GW_2._CB546990797_.jpg",
     "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400",
     "https://images.pexels.com/photos/389819/pexels-photo-389819.jpeg?auto=compress&cs=tinysrgb&w=400",
     "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400",
