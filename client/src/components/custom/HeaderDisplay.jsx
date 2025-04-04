@@ -8,10 +8,10 @@ import {
 
 const HeaderDisplay = () => {
   const imagesData = [
-    "https://images-eu.ssl-images-amazon.com/images/G/31/img22/pcacc/gamingfest/Gaming_Fest-PC-GW_2._CB546990797_.jpg",
-    "https://images.pexels.com/photos/2115256/pexels-photo-2115256.jpeg?auto=compress&cs=tinysrgb&w=400",
-    "https://images.pexels.com/photos/389819/pexels-photo-389819.jpeg?auto=compress&cs=tinysrgb&w=400",
-    "https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&w=400",
+    "https://images.unsplash.com/photo-1603481588273-2f908a9a7a1b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "https://plus.unsplash.com/premium_photo-1679177183775-75c2e0d0d209?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8Z2FtaW5nJTIwc2V0dXB8ZW58MHwwfDB8fHww",
+    "https://images.unsplash.com/photo-1566055972289-c52022ae23b7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8Z2FtaW5nJTIwaGVhZHBob25lfGVufDB8MHwwfHx8MA%3D%3D",
+    "https://images.unsplash.com/photo-1620332326501-584c3d6bf607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWluZyUyMG1vdXNlfGVufDB8MHwwfHx8MA%3D%3D",
   ];
   return (
     <Carousel className="my10 mx-auto w-[93vw] overflow-x-clip sm:overflow-x-visible">
