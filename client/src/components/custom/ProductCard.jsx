@@ -31,6 +31,7 @@ const ProductCard = ({
           <div className="flex">{starsGenerator(rating)}</div>
           <span>₹{price}</span>
         </div>
+        <hr className="invisible"/>
         <LinkButton to={`/product/${name.split(" ").join("-")}`} text="View Product" />
       </div>
     </div>
