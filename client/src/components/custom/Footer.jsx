@@ -195,31 +195,31 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t dark:border-gray-700">
+          {/* <div className="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t dark:border-gray-700">
             <div className="sm:w-full px-4 md:w-1/6">
-              <strong className="dark:text-white">FWR</strong>
+              <strong className="dark:text-white">Cartify</strong>
             </div>
             <div className="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
               <h6 className="font-bold mb-2 dark:text-white">Address</h6>
               <address className="not-italic mb-4 text-sm dark:text-gray-300">
-                123 6th St.
+                123 Main Street Mohali
                 <br />
-                Melbourne, FL 32904
+                Punjab, India 140301
               </address>
             </div>
             <div className="px-4 sm:w-1/2 md:w-1/4 mt-4 md:mt-0">
-              <h6 className="font-bold mb-2 dark:text-white">Free Resources</h6>
+              <h6 className="font-bold mb-2 dark:text-white"></h6>
               <p className="mb-4 text-sm dark:text-gray-300">
-                Use our HTML blocks for <strong>FREE</strong>.<br />
-                <em>All are MIT License</em>
+              <br />
+                <em>Thankyou for shopping with us!</em>
               </p>
             </div>
             <div className="px-4 md:w-1/4 md:ml-auto mt-6 sm:mt-4 md:mt-0">
               <Button className="px-4 py-2 dark:bg-gray-700 dark:text-white">
                 Get Started
               </Button>
-            </div>
-          </div>
+            </div> */}
+          {/* </div> */}
         </div>
       </footer>
     </>
