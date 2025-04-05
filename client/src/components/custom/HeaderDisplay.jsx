@@ -14,7 +14,7 @@ const HeaderDisplay = () => {
     "https://images.unsplash.com/photo-1620332326501-584c3d6bf607?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGdhbWluZyUyMG1vdXNlfGVufDB8MHwwfHx8MA%3D%3D",
   ];
   return (
-    <Carousel className="my10 mx-auto w-[93vw] overflow-x-clip sm:overflow-x-visible">
+    <Carousel className="my-10 mx-auto w-[93vw] overflow-x-clip sm:overflow-x-visible">
       <CarouselContent>
         {imagesData.map((image) => (
           <CarouselItem key={image}>
